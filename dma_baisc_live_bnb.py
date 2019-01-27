@@ -3,7 +3,7 @@
     - 实盘交易
 """
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -194,28 +194,28 @@ def analyze(context, perf):
     quote_currency = exchange.quote_currency.upper()
 
     # 图1：可视化资产值
-    ax1 = plt.subplot(311)
-    perf['portfolio_value'].plot(ax=ax1)
-    ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
-    start, end = ax1.get_ylim()
-    ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    # ax1 = plt.subplot(311)
+    # perf['portfolio_value'].plot(ax=ax1)
+    # ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
+    # start, end = ax1.get_ylim()
+    # ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
     # 图2：可视化仓位
-    ax2 = plt.subplot(312)
-    perf['pos_level'].plot(ax=ax2)
-    ax2.set_ylabel('Position Level')
-    start, end = 0, 1
-    ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    # ax2 = plt.subplot(312)
+    # perf['pos_level'].plot(ax=ax2)
+    # ax2.set_ylabel('Position Level')
+    # start, end = 0, 1
+    # ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
     # 图3：可视化现金数量
-    ax3 = plt.subplot(313, sharex=ax1)
-    perf['cash'].plot(ax=ax3)
-    ax3.set_ylabel('Cash\n({})'.format(quote_currency))
-    start, end = ax3.get_ylim()
-    ax3.yaxis.set_ticks(np.arange(0, end, end / 5))
+    # ax3 = plt.subplot(313, sharex=ax1)
+    # perf['cash'].plot(ax=ax3)
+    # ax3.set_ylabel('Cash\n({})'.format(quote_currency))
+    # start, end = ax3.get_ylim()
+    # ax3.yaxis.set_ticks(np.arange(0, end, end / 5))
 
-    plt.tight_layout()
-    plt.show()
+    # plt.tight_layout()
+    # plt.show()
 
     # 评价策略
     total_returns, total_ann_returns, algo_volatility, sharpe, max_drawdown = get_risk_indices(perf)
