@@ -226,7 +226,7 @@ def analyze(context, perf):
 
 if __name__ == '__main__':
     run_modes = ['backtesting', 'paper trading', 'live']
-    run_mode = run_modes[0]
+    run_mode = run_modes[2]
 
     if run_mode == 'backtesting':
         # 回测
@@ -262,7 +262,7 @@ if __name__ == '__main__':
         run_algorithm(
             live=True,
             simulate_orders=False,
-            capital_base=10,
+            capital_base=90,
             initialize=initialize,
             handle_data=handle_data,
             analyze=analyze,
