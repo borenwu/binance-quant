@@ -1,4 +1,4 @@
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import talib
@@ -131,61 +131,61 @@ def analyze(context, perf):
     exchange = list(context.exchanges.values())[0]
     quote_currency = exchange.quote_currency.upper()
 
-    # 图1：可视化资产值
-    ax1 = plt.subplot(411)
-    perf['portfolio_value'].plot(ax=ax1)
-    ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
-    start, end = ax1.get_ylim()
-    ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    # # 图1：可视化资产值
+    # ax1 = plt.subplot(411)
+    # perf['portfolio_value'].plot(ax=ax1)
+    # ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
+    # start, end = ax1.get_ylim()
+    # ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
-    # 图2：可视化货币价格，布林带和买入卖出点
-    ax2 = plt.subplot(412, sharex=ax1)
-    perf[['price', 'lower', 'middle', 'upper']].plot(ax=ax2)
-    ax2.set_ylabel('{asset}\n({quote})'.format(
-        asset=context.asset.symbol,
-        quote=quote_currency
-    ))
-    start, end = ax2.get_ylim()
-    ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    # # 图2：可视化货币价格，布林带和买入卖出点
+    # ax2 = plt.subplot(412, sharex=ax1)
+    # perf[['price', 'lower', 'middle', 'upper']].plot(ax=ax2)
+    # ax2.set_ylabel('{asset}\n({quote})'.format(
+    #     asset=context.asset.symbol,
+    #     quote=quote_currency
+    # ))
+    # start, end = ax2.get_ylim()
+    # ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
-    # 提取交易时间点
-    transaction_df = extract_transactions(perf)
-    if not transaction_df.empty:
-        buy_df = transaction_df[transaction_df['amount'] > 0]   # 买入点
-        sell_df = transaction_df[transaction_df['amount'] < 0]  # 卖出点
-        ax2.scatter(
-            buy_df.index.to_pydatetime(),
-            perf.loc[buy_df.index, 'price'],
-            marker='^',
-            s=100,
-            c='green',
-            label=''
-        )
-        ax2.scatter(
-            sell_df.index.to_pydatetime(),
-            perf.loc[sell_df.index, 'price'],
-            marker='v',
-            s=100,
-            c='red',
-            label=''
-        )
+    # # 提取交易时间点
+    # transaction_df = extract_transactions(perf)
+    # if not transaction_df.empty:
+    #     buy_df = transaction_df[transaction_df['amount'] > 0]   # 买入点
+    #     sell_df = transaction_df[transaction_df['amount'] < 0]  # 卖出点
+    #     ax2.scatter(
+    #         buy_df.index.to_pydatetime(),
+    #         perf.loc[buy_df.index, 'price'],
+    #         marker='^',
+    #         s=100,
+    #         c='green',
+    #         label=''
+    #     )
+    #     ax2.scatter(
+    #         sell_df.index.to_pydatetime(),
+    #         perf.loc[sell_df.index, 'price'],
+    #         marker='v',
+    #         s=100,
+    #         c='red',
+    #         label=''
+    #     )
+    #
+    # # 图3：比较价格变化率和资产变化率
+    # ax3 = plt.subplot(413, sharex=ax1)
+    # perf[['algorithm_period_return', 'price_change']].plot(ax=ax3)
+    # ax3.set_ylabel('Percent Change')
+    # start, end = ax3.get_ylim()
+    # ax3.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
-    # 图3：比较价格变化率和资产变化率
-    ax3 = plt.subplot(413, sharex=ax1)
-    perf[['algorithm_period_return', 'price_change']].plot(ax=ax3)
-    ax3.set_ylabel('Percent Change')
-    start, end = ax3.get_ylim()
-    ax3.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
-
-    # 图4：可视化现金数量
-    ax4 = plt.subplot(414, sharex=ax1)
-    perf['cash'].plot(ax=ax4)
-    ax4.set_ylabel('Cash\n({})'.format(quote_currency))
-    start, end = ax4.get_ylim()
-    ax4.yaxis.set_ticks(np.arange(0, end, end / 5))
-
-    plt.tight_layout()
-    plt.show()
+    # # 图4：可视化现金数量
+    # ax4 = plt.subplot(414, sharex=ax1)
+    # perf['cash'].plot(ax=ax4)
+    # ax4.set_ylabel('Cash\n({})'.format(quote_currency))
+    # start, end = ax4.get_ylim()
+    # ax4.yaxis.set_ticks(np.arange(0, end, end / 5))
+    #
+    # plt.tight_layout()
+    # plt.show()
 
     # 评价策略
     total_returns, total_ann_returns, algo_volatility, sharpe, max_drawdown = get_risk_indices(perf)
@@ -196,7 +196,7 @@ def analyze(context, perf):
 
 if __name__ == '__main__':
     run_modes = ['backtesting', 'paper trading', 'live']
-    run_mode = run_modes[2]
+    run_mode = run_modes[0]
 
     if run_mode == 'backtesting':
         run_algorithm(
