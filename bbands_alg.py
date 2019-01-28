@@ -21,7 +21,7 @@ SIGNAL_INIT = ''        # 观望信号
 
 BOLL_N = 15            # BBands参数n
 BOLL_M = 2              # BBands参数m
-TRADE_WIN = 60
+TRADE_WIN = 1
 
 def get_risk_indices(perf):
     """
@@ -73,7 +73,7 @@ def handle_data(context, data):
         # 如果交易周期过短，无法计算BBands，则跳过循环
         return
 
-    frequency = '{}T'.format(TRADE_WIN)  # '5T'
+    frequency = '{}H'.format(TRADE_WIN)  # '5T'
     # 获得历史价格
     hitory_data = data.history(context.asset,
                                'close',
@@ -196,7 +196,7 @@ def analyze(context, perf):
 
 if __name__ == '__main__':
     run_modes = ['backtesting', 'paper trading', 'live']
-    run_mode = run_modes[2]
+    run_mode = run_modes[0]
 
     if run_mode == 'backtesting':
         run_algorithm(
