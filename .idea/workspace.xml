@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb0e2a-e775-4db9-8dba-db491e6537ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bbands_alg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bbands_param_opt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/quant-coin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/quant-coin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbands_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbands_alg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_alg.coverage" NAME="dma_baisc_live_alg Coverage Results" MODIFIED="1548571848943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548660835531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548662857432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binance_quant$bbands_param_opt.coverage" NAME="bbands_param_opt Coverage Results" MODIFIED="1548662796766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_btc.coverage" NAME="dma_baisc_live_btc Coverage Results" MODIFIED="1548594755397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$course05_02.coverage" NAME="course05_02 Coverage Results" MODIFIED="1548559005331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_bnb.coverage" NAME="dma_baisc_live_bnb Coverage Results" MODIFIED="1548595007904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -28,10 +26,10 @@
       <file leaf-file-name="bbands_alg.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bbands_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
+            <state relative-caret-position="471">
+              <caret line="201" column="22" lean-forward="true" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
               <folding>
-                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#34#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -40,8 +38,8 @@
       <file leaf-file-name="bbands_param_opt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbands_param_opt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-768">
-              <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+            <state relative-caret-position="-2976">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -166,7 +164,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="course05_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bbands_param_opt" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quant-coin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -179,7 +177,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course05_02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bbands_param_opt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,19 +241,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.course05_02" />
       <item itemvalue="Python.dma_baisc_live_alg" />
       <item itemvalue="Python.dma_baisc_live_btc" />
       <item itemvalue="Python.dma_baisc_live_bnb" />
       <item itemvalue="Python.bbands_alg" />
+      <item itemvalue="Python.bbands_param_opt" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.bbands_alg" />
+        <item itemvalue="Python.bbands_param_opt" />
         <item itemvalue="Python.dma_baisc_live_bnb" />
         <item itemvalue="Python.dma_baisc_live_btc" />
         <item itemvalue="Python.dma_baisc_live_alg" />
-        <item itemvalue="Python.course05_02" />
       </list>
     </recent_temporary>
   </component>
@@ -277,11 +275,26 @@
       <option name="project" value="LOCAL" />
       <updated>1548598072795</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="4">
+      <created>1548662117489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548662117489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="4">
+      <created>1548663105251</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548663105251</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -289,7 +302,7 @@
       <window_info anchor="bottom" id="Run" order="2" weight="0.4355363" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2595949" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -314,7 +327,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="4" />
+    <option name="LAST_COMMIT_MESSAGE" value="4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -443,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands_param_opt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768">
-          <caret line="43" column="50" selection-start-line="43" selection-start-column="50" selection-end-line="43" selection-end-column="50" />
+        <state relative-caret-position="-2976">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -453,10 +467,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
+        <state relative-caret-position="471">
+          <caret line="201" column="22" lean-forward="true" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#34#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
