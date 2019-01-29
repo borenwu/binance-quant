@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb0e2a-e775-4db9-8dba-db491e6537ec" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/boll_alg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbands_alg_waves.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/bbands_alg_waves.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbands_param_opt.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/course05_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/course05_02.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dma_baisc_live_bnb.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/dma_baisc_live_bnb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dma_baisc_live_btc.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/dma_baisc_live_btc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsi_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/rsi_alg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsi_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanjiao.py" beforeDir="false" afterPath="$PROJECT_DIR$/examples/sanjiao.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_alg.coverage" NAME="dma_baisc_live_alg Coverage Results" MODIFIED="1548571848943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548662857432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548732510150" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/binance_quant$bbands_param_opt.coverage" NAME="bbands_param_opt Coverage Results" MODIFIED="1548662796766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_btc.coverage" NAME="dma_baisc_live_btc Coverage Results" MODIFIED="1548594755397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$course05_02.coverage" NAME="course05_02 Coverage Results" MODIFIED="1548559005331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -36,8 +29,8 @@
       <file leaf-file-name="bbands_alg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbands_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="226" column="9" lean-forward="true" selection-start-line="196" selection-end-line="226" selection-end-column="9" />
+            <state relative-caret-position="420">
+              <caret line="20" lean-forward="true" selection-end-line="226" selection-end-column="9" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -45,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rsi_alg.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rsi_alg.py">
+      <file leaf-file-name="boll_alg.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boll_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+            <state relative-caret-position="1206">
+              <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -59,11 +52,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>TRADE_WIN</find>
       <find>print</find>
       <find>plt</find>
+      <find>positions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -77,8 +78,10 @@
         <option value="$PROJECT_DIR$/dma_baisc_live_btc.py" />
         <option value="$PROJECT_DIR$/dma_baisc_live_bnb.py" />
         <option value="$PROJECT_DIR$/bbands_param_opt.py" />
-        <option value="$PROJECT_DIR$/bbands_alg.py" />
         <option value="$PROJECT_DIR$/rsi_alg.py" />
+        <option value="$PROJECT_DIR$/bbands_alg.py" />
+        <option value="$PROJECT_DIR$/examples/boll_alg.py" />
+        <option value="$PROJECT_DIR$/boll_alg.py" />
       </list>
     </option>
   </component>
@@ -128,7 +131,12 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\量化\binance-quant" />
+      <recent name="G:\量化\binance-quant\tests" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\量化\binance-quant\examples" />
       <recent name="G:\量化\binance-quant" />
       <recent name="E:\code\python\quant-coin" />
     </key>
@@ -145,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rsi_alg">
+  <component name="RunManager" selected="Python.bbands_alg">
     <configuration name="bbands_alg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quant-coin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,8 +258,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rsi_alg" />
         <item itemvalue="Python.bbands_alg" />
+        <item itemvalue="Python.rsi_alg" />
         <item itemvalue="Python.bbands_param_opt" />
         <item itemvalue="Python.dma_baisc_live_bnb" />
         <item itemvalue="Python.dma_baisc_live_btc" />
@@ -332,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548732107918</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="8">
+      <created>1548732305334</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548732305334</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -373,7 +388,8 @@
     <MESSAGE value="4" />
     <MESSAGE value="6" />
     <MESSAGE value="7" />
-    <option name="LAST_COMMIT_MESSAGE" value="7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -692,16 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bbands_alg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="226" column="9" lean-forward="true" selection-start-line="196" selection-end-line="226" selection-end-column="9" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/course05_02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -725,8 +731,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rsi_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="3276">
           <caret line="156" column="26" selection-start-line="156" selection-start-column="26" selection-end-line="156" selection-end-column="26" />
+          <folding>
+            <element signature="e#34#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bbands_alg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" lean-forward="true" selection-end-line="226" selection-end-column="9" />
+          <folding>
+            <element signature="e#34#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boll_alg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>
