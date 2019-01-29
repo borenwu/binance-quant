@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb0e2a-e775-4db9-8dba-db491e6537ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/bbands_alg_waves.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rsi_alg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbands_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbands_alg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,38 +13,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_btc.coverage" NAME="dma_baisc_live_btc Coverage Results" MODIFIED="1548594755397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/quant_coin$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548681589886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_alg.coverage" NAME="dma_baisc_live_alg Coverage Results" MODIFIED="1548571848943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/binance_quant$bbands_alg.coverage" NAME="bbands_alg Coverage Results" MODIFIED="1548662857432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$bbands_param_opt.coverage" NAME="bbands_param_opt Coverage Results" MODIFIED="1548662796766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_btc.coverage" NAME="dma_baisc_live_btc Coverage Results" MODIFIED="1548594755397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/quant_coin$course05_02.coverage" NAME="course05_02 Coverage Results" MODIFIED="1548559005331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$rsi_alg.coverage" NAME="rsi_alg Coverage Results" MODIFIED="1548729591998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg_okex.coverage" NAME="bbands_alg_okex Coverage Results" MODIFIED="1548665320904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$dma_baisc_live_bnb.coverage" NAME="dma_baisc_live_bnb Coverage Results" MODIFIED="1548595007904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/binance_quant$bbands_param_opt.coverage" NAME="bbands_param_opt Coverage Results" MODIFIED="1548662796766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/quant_coin$course05_02.coverage" NAME="course05_02 Coverage Results" MODIFIED="1548559005331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/quant_coin$sanjiao.coverage" NAME="sanjiao Coverage Results" MODIFIED="1548512985277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/binance_quant$bbands_alg_waves.coverage" NAME="bbands_alg_waves Coverage Results" MODIFIED="1548728508837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="bbands_alg.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bbands_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="83" column="14" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="14" />
+            <state relative-caret-position="86">
+              <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rsi_alg.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rsi_alg.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="83" column="77" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="77" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -54,7 +39,7 @@
       <file leaf-file-name="bbands_param_opt.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbands_param_opt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="133">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -66,7 +51,7 @@
       <file leaf-file-name="dma_baisc_live_bnb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dma_baisc_live_bnb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5124">
+            <state relative-caret-position="4636">
               <caret line="271" column="9" selection-start-line="259" selection-start-column="4" selection-end-line="271" selection-end-column="9" />
               <folding>
                 <element signature="e#66#84#0" expanded="true" />
@@ -83,7 +68,6 @@
       <find>TRADE_WIN</find>
       <find>print</find>
       <find>plt</find>
-      <find>ustd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,10 +82,6 @@
         <option value="$PROJECT_DIR$/dma_baisc_live_bnb.py" />
         <option value="$PROJECT_DIR$/bbands_param_opt.py" />
         <option value="$PROJECT_DIR$/bbands_alg.py" />
-        <option value="$PROJECT_DIR$/bbands_alg - okex.py" />
-        <option value="$PROJECT_DIR$/bbands_alg_okex.py" />
-        <option value="$PROJECT_DIR$/bbands_alg_waves.py" />
-        <option value="$PROJECT_DIR$/rsi_alg.py" />
       </list>
     </option>
   </component>
@@ -126,18 +106,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="binance-quant" type="b2602c69:ProjectViewProjectNode" />
-              <item name="binance-quant" type="462c0819:PsiDirectoryNode" />
+              <item name="quant-coin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="quant-coin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rsi_alg">
+  <component name="RunManager" selected="Python.bbands_alg">
     <configuration name="bbands_alg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quant-coin" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,44 +160,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bbands_alg.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="bbands_alg_okex" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="quant-coin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bbands_alg_okex.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="bbands_alg_waves" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="quant-coin" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bbands_alg_waves.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +184,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="rsi_alg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dma_baisc_live_alg" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="quant-coin" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,26 +197,64 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rsi_alg.py" />
+      <option name="SCRIPT_NAME" value="E:\code\python\quant-coin\dma_baisc_live_bnb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dma_baisc_live_bnb" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quant-coin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dma_baisc_live_bnb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dma_baisc_live_btc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="quant-coin" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dma_baisc_live_btc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
+      <item itemvalue="Python.dma_baisc_live_alg" />
+      <item itemvalue="Python.dma_baisc_live_btc" />
+      <item itemvalue="Python.dma_baisc_live_bnb" />
       <item itemvalue="Python.bbands_alg" />
       <item itemvalue="Python.bbands_param_opt" />
-      <item itemvalue="Python.bbands_alg_okex" />
-      <item itemvalue="Python.bbands_alg_waves" />
-      <item itemvalue="Python.rsi_alg" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rsi_alg" />
-        <item itemvalue="Python.bbands_alg_waves" />
-        <item itemvalue="Python.bbands_alg_okex" />
         <item itemvalue="Python.bbands_alg" />
         <item itemvalue="Python.bbands_param_opt" />
+        <item itemvalue="Python.dma_baisc_live_bnb" />
+        <item itemvalue="Python.dma_baisc_live_btc" />
+        <item itemvalue="Python.dma_baisc_live_alg" />
       </list>
     </recent_temporary>
   </component>
@@ -311,17 +291,17 @@
       <updated>1548663105251</updated>
     </task>
     <task id="LOCAL-00004" summary="4">
-      <created>1548663236020</created>
+      <created>1548681648567</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1548663236020</updated>
+      <updated>1548681648567</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -329,12 +309,11 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4355363" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43422914" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827735" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26226014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26340482" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32942432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -345,6 +324,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -366,8 +346,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bbands_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4746">
-          <caret line="226" column="9" lean-forward="true" selection-start-line="196" selection-end-line="226" selection-end-column="9" />
+        <state relative-caret-position="3686">
+          <caret line="201" column="22" lean-forward="true" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="22" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>
@@ -376,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands_param_opt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="133">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -386,7 +366,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dma_baisc_live_bnb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5124">
+        <state relative-caret-position="4636">
           <caret line="271" column="9" lean-forward="true" selection-start-line="259" selection-start-column="4" selection-end-line="271" selection-end-column="9" />
           <folding>
             <element signature="e#66#84#0" expanded="true" />
@@ -399,6 +379,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,6 +389,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -413,6 +399,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -431,6 +420,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,6 +441,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -459,6 +454,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="26" column="14" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="e#32#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -466,6 +464,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -473,12 +474,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bbands_performance.csv" />
     <entry file="file://$PROJECT_DIR$/dma_baisc_live_bnb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5124">
+        <state relative-caret-position="4636">
           <caret line="271" column="9" selection-start-line="259" selection-start-column="4" selection-end-line="271" selection-end-column="9" />
           <folding>
             <element signature="e#66#84#0" expanded="true" />
@@ -489,7 +494,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands_param_opt.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="133">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -497,40 +502,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bbands_alg_okex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3402">
-          <caret line="162" column="33" selection-start-line="162" selection-start-column="33" selection-end-line="162" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bbands_alg_waves.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3393">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="e#34#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rsi_alg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="83" column="77" selection-start-line="83" selection-start-column="67" selection-end-line="83" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bbands_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="83" column="14" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="14" />
+        <state relative-caret-position="86">
+          <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>
