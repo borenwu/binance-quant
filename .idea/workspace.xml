@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3cb0e2a-e775-4db9-8dba-db491e6537ec" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/boll_alg.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbands_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/bbands_alg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boll_alg.py" beforeDir="false" afterPath="$PROJECT_DIR$/boll_alg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,8 +29,8 @@
       <file leaf-file-name="bbands_alg.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bbands_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" lean-forward="true" selection-end-line="226" selection-end-column="9" />
+            <state relative-caret-position="597">
+              <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="boll_alg.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/boll_alg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1206">
-              <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+            <state relative-caret-position="597">
+              <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
               <folding>
                 <element signature="e#34#52#0" expanded="true" />
               </folding>
@@ -79,8 +79,8 @@
         <option value="$PROJECT_DIR$/dma_baisc_live_bnb.py" />
         <option value="$PROJECT_DIR$/bbands_param_opt.py" />
         <option value="$PROJECT_DIR$/rsi_alg.py" />
-        <option value="$PROJECT_DIR$/bbands_alg.py" />
         <option value="$PROJECT_DIR$/examples/boll_alg.py" />
+        <option value="$PROJECT_DIR$/bbands_alg.py" />
         <option value="$PROJECT_DIR$/boll_alg.py" />
       </list>
     </option>
@@ -347,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548732305334</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="9">
+      <created>1548733225549</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548733225549</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -389,7 +396,8 @@
     <MESSAGE value="6" />
     <MESSAGE value="7" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="9" />
+    <option name="LAST_COMMIT_MESSAGE" value="9" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,8 +749,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bbands_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" lean-forward="true" selection-end-line="226" selection-end-column="9" />
+        <state relative-caret-position="597">
+          <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>
@@ -751,8 +759,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/boll_alg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1206">
-          <caret line="226" column="9" selection-start-line="226" selection-start-column="9" selection-end-line="226" selection-end-column="9" />
+        <state relative-caret-position="597">
+          <caret line="219" column="27" selection-start-line="219" selection-start-column="27" selection-end-line="219" selection-end-column="27" />
           <folding>
             <element signature="e#34#52#0" expanded="true" />
           </folding>

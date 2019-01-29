@@ -175,7 +175,7 @@ if __name__ == '__main__':
         run_algorithm(
             live=True,
             simulate_orders=False,
-            capital_base=90,
+            capital_base=100,
             initialize=initialize,
             handle_data=handle_data,
             analyze=analyze,
