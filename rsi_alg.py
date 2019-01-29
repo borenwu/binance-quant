@@ -47,7 +47,7 @@ def handle_data(context, data):
                                frequency='1D',
                                )
     # 获取当前持仓数量
-    pos_amount = round(context.portfolio.positions[context.asset].amount,2)
+    pos_amount = round(context.portfolio.positions[context.asset].amount,1)
 
     # 计算RSI
     rsi_vals = talib.RSI(hitory_data, timeperiod=RSI_PERIODS)
