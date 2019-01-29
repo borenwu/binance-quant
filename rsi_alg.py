@@ -153,15 +153,33 @@ def analyze(context, perf):
 
 
 if __name__ == '__main__':
-    run_algorithm(
-        capital_base=90,
-        data_frequency='daily',
-        initialize=initialize,
-        handle_data=handle_data,
-        analyze=analyze,
-        exchange_name='binance',
-        algo_namespace=NAMESPACE,
-        quote_currency='usdt',
-        start=pd.to_datetime('2019-01-01', utc=True),
-        end=pd.to_datetime('2019-01-28', utc=True)
-    )
+    run_modes = ['backtesting', 'paper trading', 'live']
+    run_mode = run_modes[0]
+
+    if run_mode == 'backtesting':
+        run_algorithm(
+            capital_base=90,
+            data_frequency='daily',
+            initialize=initialize,
+            handle_data=handle_data,
+            analyze=analyze,
+            exchange_name='binance',
+            algo_namespace=NAMESPACE,
+            quote_currency='usdt',
+            start=pd.to_datetime('2019-01-01', utc=True),
+            end=pd.to_datetime('2019-01-27', utc=True)
+        )
+
+    elif run_mode == 'live':
+        # 实盘交易
+        run_algorithm(
+            live=True,
+            simulate_orders=False,
+            capital_base=90,
+            initialize=initialize,
+            handle_data=handle_data,
+            analyze=analyze,
+            exchange_name='binance',
+            algo_namespace=NAMESPACE,
+            quote_currency='usdt'
+        )
