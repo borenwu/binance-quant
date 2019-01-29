@@ -81,7 +81,7 @@ def handle_data(context, data):
                                frequency=frequency,
                                )
     # 获取当前持仓数量
-    pos_amount = round(context.portfolio.positions[context.asset].amount,2)
+    pos_amount = round(context.portfolio.positions[context.asset].amount,1)
 
     # 计算BBands
     uppers, middles, lowers = talib.BBANDS(hitory_data, timeperiod=BOLL_N, nbdevdn=BOLL_M, nbdevup=BOLL_M)
