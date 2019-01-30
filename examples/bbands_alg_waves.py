@@ -21,7 +21,7 @@ SIGNAL_INIT = ''        # 观望信号
 
 BOLL_N = 15            # BBands参数n
 BOLL_M = 2              # BBands参数m
-TRADE_WIN = 30
+TRADE_WIN = 1
 
 def get_risk_indices(perf):
     """
@@ -73,7 +73,7 @@ def handle_data(context, data):
         # 如果交易周期过短，无法计算BBands，则跳过循环
         return
 
-    frequency = '{}T'.format(TRADE_WIN)  # '5T'
+    frequency = '{}H'.format(TRADE_WIN)  # '5T'
     # 获得历史价格
     hitory_data = data.history(context.asset,
                                'close',
@@ -200,8 +200,8 @@ if __name__ == '__main__':
 
     if run_mode == 'backtesting':
         run_algorithm(
-            capital_base=2,
-            data_frequency='daily',
+            capital_base=1,
+            data_frequency='minute',
             initialize=initialize,
             handle_data=handle_data,
             analyze=analyze,
@@ -209,7 +209,7 @@ if __name__ == '__main__':
             algo_namespace=NAMESPACE,
             quote_currency='eth',
             start=pd.to_datetime('2019-01-01', utc=True),
-            end=pd.to_datetime('2019-01-27', utc=True)
+            end=pd.to_datetime('2019-01-28', utc=True)
         )
 
     elif run_mode == 'live':
@@ -217,7 +217,7 @@ if __name__ == '__main__':
         run_algorithm(
             live=True,
             simulate_orders=False,
-            capital_base=90,
+            capital_base=1,
             initialize=initialize,
             handle_data=handle_data,
             analyze=analyze,

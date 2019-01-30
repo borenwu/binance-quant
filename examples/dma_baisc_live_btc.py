@@ -3,7 +3,7 @@
     - 实盘交易
 """
 
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
@@ -77,7 +77,7 @@ def initialize(context):
     log.info('策略初始化')
     context.i = 0                       # 经历过的交易周期
     # 设置加密货币池
-    context.asset_pool = [symbol('eth_usdt')]
+    context.asset_pool = [symbol('waves_eth')]
     context.set_commission(maker=0.001, taker=0.001)    # 设置手续费
     context.set_slippage(slippage=0.001)                # 设置滑点
 
@@ -174,29 +174,29 @@ def analyze(context, perf):
     exchange = list(context.exchanges.values())[0]
     quote_currency = exchange.quote_currency.upper()
 
-    # 图1：可视化资产值
-    ax1 = plt.subplot(311)
-    perf['portfolio_value'].plot(ax=ax1)
-    ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
-    start, end = ax1.get_ylim()
-    ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    # # 图1：可视化资产值
+    # ax1 = plt.subplot(311)
+    # perf['portfolio_value'].plot(ax=ax1)
+    # ax1.set_ylabel('Portfolio Value\n({})'.format(quote_currency))
+    # start, end = ax1.get_ylim()
+    # ax1.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
 
-    # 图2：可视化仓位
-    ax2 = plt.subplot(312)
-    perf['pos_level'].plot(ax=ax2)
-    ax2.set_ylabel('Position Level')
-    start, end = 0, 1
-    ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
-
-    # 图3：可视化现金数量
-    ax3 = plt.subplot(313, sharex=ax1)
-    perf['cash'].plot(ax=ax3)
-    ax3.set_ylabel('Cash\n({})'.format(quote_currency))
-    start, end = ax3.get_ylim()
-    ax3.yaxis.set_ticks(np.arange(0, end, end / 5))
-
-    plt.tight_layout()
-    plt.show()
+    # # 图2：可视化仓位
+    # ax2 = plt.subplot(312)
+    # perf['pos_level'].plot(ax=ax2)
+    # ax2.set_ylabel('Position Level')
+    # start, end = 0, 1
+    # ax2.yaxis.set_ticks(np.arange(start, end, (end - start) / 5))
+    #
+    # # 图3：可视化现金数量
+    # ax3 = plt.subplot(313, sharex=ax1)
+    # perf['cash'].plot(ax=ax3)
+    # ax3.set_ylabel('Cash\n({})'.format(quote_currency))
+    # start, end = ax3.get_ylim()
+    # ax3.yaxis.set_ticks(np.arange(0, end, end / 5))
+    #
+    # plt.tight_layout()
+    # plt.show()
 
     # 评价策略
     total_returns, total_ann_returns, algo_volatility, sharpe, max_drawdown = get_risk_indices(perf)
@@ -214,16 +214,16 @@ if __name__ == '__main__':
         run_algorithm(
             live=False,
             simulate_orders=True,
-            capital_base=100,
+            capital_base=1,
             data_frequency='minute',
             initialize=initialize,
             handle_data=handle_data,
             analyze=analyze,
             exchange_name='binance',
             algo_namespace=NAMESPACE,
-            quote_currency='usdt',
+            quote_currency='eth',
             start=pd.to_datetime('2019-01-01', utc=True),
-            end=pd.to_datetime('2019-01-26', utc=True)
+            end=pd.to_datetime('2019-01-28', utc=True)
         )
     elif run_mode == 'paper trading':
         # 实盘模拟
